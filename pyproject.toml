@@ -1,0 +1,18 @@
+[project]
+name = "embodied-intelligence"
+version = "0.1.0"
+description = "Embodied intelligence and point cloud learning"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "numpy",
+    "open3d",
+    "plotly",
+]
+
+[dependency-groups]
+dev = [
+    "debugpy",
+    "ipykernel",
+]
